@@ -89,7 +89,7 @@ This ensures:
 
 Travel-Website     
 ┣━ img/    
-┃ ┗━ (all SVGs, JPGs, PNGs: logo, hero, cards, icons, etc)
+┃ ┗━ (all SVGs, JPGs, PNGs: logo, hero, cards, icons, etc)                 
 ┣━ index.html       
 ┣━ style.css      
 ┗━ README.md        
