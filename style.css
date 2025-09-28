@@ -68,21 +68,31 @@ ul {
 /* ===HEADER STARTS */
 .nav {
   display: flex;
-  position: absolute;
+  position: fixed;
   z-index: 999;
-  top: 30px;
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
+  width: 90%;
+  max-width: 1200px;
   border-radius: 1rem;
   align-items: center;
   justify-content: space-between;
   height: 80px;
+  background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(20px);
+  border: 2px solid #b8b2b2;
+  padding: 0 1.5rem;
 
   .logo {
     display: inline-flex;
     align-items: center;
     width: 100px;
+    fill: var(--light_orange);
+    transition: fill 0.3s ease;
+    &:hover {
+      fill: var(--white);
+    }
   }
 
   .nav__links {
@@ -91,11 +101,11 @@ ul {
     .nav__link {
       position: relative;
       text-decoration: none;
-      color: var(--white);
-      padding-inline: 1rem;
+      color: var(--light_orange);
+      padding-inline: 0.5rem;
 
       &:hover {
-        color: var(--light_orange);
+        color: var(--white);
         text-decoration: underline;
       }
     }
@@ -111,6 +121,7 @@ ul {
   position: relative;
 }
 
+/* ===HERO SECTION=== */
 .hero {
   /* overflow-y: hidden; */
   position: absolute;
@@ -136,6 +147,8 @@ ul {
     border-radius: 0.5rem;
     backdrop-filter: blur(10px);
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 
     .request__text {
@@ -151,6 +164,11 @@ ul {
       &:nth-child(3) {
         padding-inline: 2rem 1rem;
       }
+    }
+
+    button {
+      padding-block: 0.5rem;
+      margin-block: 0.2rem;
     }
   }
 
