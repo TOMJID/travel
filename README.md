@@ -87,12 +87,12 @@ This ensures:
 
 </div>
 
-Travel-Website
-┣━ img/
+Travel-Website     
+┣━ img/    
 ┃ ┗━ (all SVGs, JPGs, PNGs: logo, hero, cards, icons, etc)
-┣━ index.html
-┣━ style.css
-┗━ README.md
+┣━ index.html       
+┣━ style.css      
+┗━ README.md        
 
 ---
 
